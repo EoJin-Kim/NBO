@@ -2,7 +2,7 @@
 all: nbo
 
 nbo: nbo.o main.o
-	g++ -o nbo nbo.o main.o
+	gcc -o nbo nbo.o main.o
 
 main.o: nbo.h main.cpp
 	gcc -c -o main.o main.cpp
