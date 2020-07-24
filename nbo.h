@@ -1,0 +1,1 @@
+void nbo(char* fp1, char* fp2);
