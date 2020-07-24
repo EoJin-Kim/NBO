@@ -19,12 +19,9 @@ uint32_t file_hex(char* file_name)
 
 void nbo(char* file_name1, char* file_name2)
 {
-    FILE *fp2;
+
 	char buffer1[200];
  	char buffer2[200];
-
-	int count;
-	int size;
 
     uint32_t result1 = file_hex(file_name1);
     uint32_t result2 = file_hex(file_name2);
